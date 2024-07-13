@@ -1,0 +1,108 @@
+<Project>
+  <Name>ee\</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Comment">
+        <Text>направляем луч и попадаем в?</Text>
+        <Location left="1077" top="377" />
+        <Size width="143" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>сохранили рендер в prevRendere
+сохранили цвет в prevColor
+записали новый цвет</Text>
+        <Location left="586" top="348" />
+        <Size width="223" height="75" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>попали в объект и prevRendrer==null</Text>
+        <Location left="832" top="332" />
+        <Size width="133" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>prewRenderer.Color=prewColor
+prewRenderer=null;</Text>
+        <Location left="1033" top="644" />
+        <Size width="187" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>объект==null и prevRender!=null</Text>
+        <Location left="1165" top="519" />
+        <Size width="130" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>newRenderer = object</Text>
+        <Location left="1432" top="377" />
+        <Size width="160" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>попали в объект и prevRender!=null</Text>
+        <Location left="1269" top="332" />
+        <Size width="130" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>if newRend==prevRenderer</Text>
+        <Location left="1432" top="490" />
+        <Size width="160" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>ничего не делаем</Text>
+        <Location left="1361" top="614" />
+        <Size width="160" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>prewRenderer.Color=prewColor;
+newRenderer.color=Color.cyan
+prewRenderer=newRend;</Text>
+        <Location left="1602" top="614" />
+        <Size width="203" height="80" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>Yes</Text>
+        <Location left="1405" top="549" />
+        <Size width="50" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>No</Text>
+        <Location left="1636" top="519" />
+        <Size width="50" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Comment" first="0" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="0" second="5">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="0" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="5" second="7">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="7" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1467</X>
+          <Y>565</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1467</X>
+          <Y>587</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="7" second="9">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
